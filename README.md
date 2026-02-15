@@ -1,6 +1,6 @@
-# HOT Pay Cross-Chain Smart Checkout (Next.js)
 
-## What this app does
+
+## features
 
 - Merchant checkout config (amount, settlement token, invoice note)
 - Wallet connect flow with one-click wallet connect
@@ -48,21 +48,4 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 This repo currently keeps the same wallet UX for compatibility while using a lightweight connect flow.
 
-## Folder structure
-
-- `src/app/page.jsx` - Full checkout app logic and UI
-- `src/app/layout.jsx` - Root layout metadata
-- `src/app/globals.css` - Visual styling
-- `package.json` - Next scripts/deps
-
-## Hackathon submission
-
-Use this exact route flow for judges:
-
-1. Fill merchant details and invoice.
-2. Click `Connect Wallet` and authorize your wallet.
-3. Click `Recalculate Routes`.
-4. Select one route.
-5. Click `Pay in Any Token`.
-6. If route fails, system demonstrates fallback route retry.
-7. Show dashboard stats + transaction timeline.
+STOPPED
